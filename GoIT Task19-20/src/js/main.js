@@ -1,6 +1,3 @@
-/**
- * Created by klush on 14.05.2016.
- */
 var data = [
     {
         "guid": "701b29c3-b35d-4cf1-a5f6-8b12b29a5081",
@@ -335,10 +332,10 @@ $(function(){
         mode: 'fade'
     });
 
-    $('.nav-menu__link').on('click',function () {
+    /*$('.nav-menu__link').on('click',function () {
         $('.nav-menu__link--active').removeClass('nav-menu__link--active');
         $(this).addClass('nav-menu__link--active');
-    });
+    });*/
     
     $(itemPanel).on('click',function (e) {
         e.preventDefault();
