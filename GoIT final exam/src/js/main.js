@@ -44,7 +44,7 @@ $(document).ready(function(){
 	function search (q) {
 		$.ajax({
 			url:
-			'http://pixabay.com/api/?key=2737954-40cb35066be026a3dec61f25f&q='+encodeURIComponent(q)+'&image_type=photo&per_page=20',
+			window.location.protocol + '//pixabay.com/api/?key=2737954-40cb35066be026a3dec61f25f&q='+encodeURIComponent(q)+'&image_type=photo&per_page=20',
 
 			success: function(data){
 				if(data.hits.length>0){
