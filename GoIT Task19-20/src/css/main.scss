@@ -10,7 +10,7 @@
 
   .#{$name}-wrapper{
     margin: 0 auto;
-    max-width: $wrapper-width;
+    width: $wrapper-width;
     padding: 0 $wrapper-padding;
     margin-top: $margintop;
   }
