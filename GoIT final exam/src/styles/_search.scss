@@ -1,0 +1,69 @@
+.search-partners {
+  font-family: $mont-bold;
+  margin-bottom: 100px;
+  text-align: center;
+
+  &__wrapper {
+    max-width: $desktop-width;
+    margin: auto;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .03em;
+    margin: 75px 0 32px 0;
+    cursor: default;
+    color: $dark;
+  }
+
+  &__header {
+    font-family: $roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 36px 0 36px 0;
+    color: $dark;
+  }
+
+  &__input {
+    font-family: $roboto;
+    font-weight: 300;
+    box-sizing: border-box;
+    min-width: 240px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 0 14px;
+    color: $dark;
+    border: 1px solid $grey;
+    @include border-radius(4px);
+    outline-style: none;
+    box-shadow: 0 1px #eee;
+  }
+
+  &__button {
+    font-family: $mont-bold;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    outline: none;
+    min-width: 160px;
+    height: 40px;
+    padding: 1px 10px;
+    cursor: pointer;
+    transition: 1.5s;
+    vertical-align: middle;
+    text-decoration: none;
+    color: $white;
+    border: 2px solid transparent;
+    @include border-radius(20px);
+    background-color: $red;
+
+    &:hover {
+      transition: .8s;
+      color: $red;
+      border: 2px solid $red;
+      background-color: $white;
+    }
+  }
+}
+

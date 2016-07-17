@@ -1,0 +1,68 @@
+.footer{
+  border-top: 4px solid $red;
+  height: 192px;
+
+  &__wrapper{
+    width: $desktop-width;
+    margin: 0 auto;
+  }
+
+  &__logo{
+    margin-top: 38px;
+    font-family: $mont-bold;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    color: $red;
+  }
+
+  &__menu{
+    margin-left: 240px;
+    margin-top: -20px;
+    line-height: 26px;
+  }
+
+  &__company{
+    font-weight: 900;
+    font-size: 14px;
+    font-family: $mont-bold;
+
+    &-item{
+      width: 300px;
+
+      & a{
+        font-family: $roboto;
+        font-size: 14px;
+        color: #666;
+
+        &:hover{
+          color: $red;
+          font-weight: 600;
+          transition: 0.3s all;
+        }
+      }
+    }
+  }
+
+  &__partners{
+    margin-left: 400px;
+    margin-top: -125px;
+    font-weight: 900;
+    font-family: $mont-bold;
+    font-size: 14px;
+  }
+
+  &__designed{
+    float: right;
+    cursor: pointer;
+
+    &-text{
+      text-transform: uppercase;
+      font-family: $mont-bold;
+      color: #ccc;
+      font-size: 10px;
+      margin: -15px 0 10px 31px;
+      letter-spacing: 0.9px;
+    }
+  }
+}
+

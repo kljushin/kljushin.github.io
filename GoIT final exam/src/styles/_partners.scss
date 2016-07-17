@@ -1,0 +1,98 @@
+.partners {
+	width: 100%;
+	margin: 98px auto 40px;
+
+	&__title {
+		margin-bottom: 15px;
+		margin-right: 1.8%;
+		margin: 0 5px 34px 0;
+		line-height: 25px;
+		text-align: center;
+		font-family: $mont-bold;
+		font-weight: 700;
+		font-size: 22px;
+		color: #333;
+	}
+	&__list {
+		width: 940px;
+		margin: 0 auto;
+	}
+	&__item {
+		position: relative;
+		width: 235px;
+		margin: 0 auto 30px;
+		float: left;
+		cursor: pointer;
+	}
+	&__photo {
+		display: inline-block;
+		width: 125px;
+		height: 122px;
+		margin-left: 56px;
+		margin-bottom: 15px;
+		@include border-radius(50%);
+		overflow: hidden;
+	}
+	&__icon {
+		overflow: hidden;
+		display: inline-block;
+		position: absolute;
+		left: 59.5%;
+		top: 83px;
+		width: 45px;
+		height: 45px;
+		background-image: url(../img/icons.png);
+	}
+
+	.icon_1 {
+		background-position: -5px -5px;
+	}
+	.icon_2 {
+		background-position: -5px -60px;
+	}
+	.icon_3 {
+		background-position: -5px -114px;
+	}
+	.icon_4 {
+		background-position: -5px -169px;
+	}
+	&__name {
+		margin-bottom: 16px;
+		text-align: center;
+		font-family: $mont-bold;
+		font-size: 14px;
+		font-weight: 700;
+		color: #333;
+	}
+	&__about {
+		line-height: 15px;
+		text-align: center;
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 14px;
+		color: #666;
+	}
+	&__form {
+		text-align: center;
+	}
+	&__button {
+		width: 195px;
+		height: 38px;
+		margin: 10px auto;
+		background: none;
+		@include border-radius(25px);
+		border: 2px solid #ff4e50;
+		font-family: $mont-bold;
+		font-size: 14px;
+		font-weight: 700;
+		color: $red;
+		cursor: pointer;
+
+		&:hover{
+			background-color: $red;
+			color: $white;
+			transition: 0.5s all;
+		}
+	}
+}
+

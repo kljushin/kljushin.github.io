@@ -1,0 +1,118 @@
+@media screen and (max-width: 939px) {
+  .header__wrapper{
+    width: 670px;
+  }
+  .wrapper{
+    width: 768px;
+    margin: 0 auto;
+  }
+  .slider{
+    width: 768px;
+
+    &__wrap {
+      margin: auto;
+      width: 748px;
+    }
+
+    &__title {
+      font-size: 21px;
+      margin: 96px 0 34px 0;
+    }
+
+    &__steps {
+      width: 236px;
+    }
+  }
+  .arrows__prev {
+    top: 40px;
+  }
+  .arrows__next {
+    top: 40px;
+  }
+
+  .step__text{
+    width: 220px;
+  }
+
+  .step__container {
+    width: 236px;
+
+    &-info {
+      height: 400px;
+    }
+  }
+
+  .step2 {
+    padding: 0 17px;
+  }
+  .partners {
+    margin:100px auto 98px;
+
+    &__title {
+      margin: 0 5px 34px 0;
+    }
+
+    &__list {
+      width: 472px;
+      margin: 0 auto;
+    }
+
+    &__item {
+      width: 220px;
+      float: left;
+    }
+
+    &__form {
+      margin: 30px auto 0;
+    }
+
+    &__button {
+      width: 192px;
+      margin-right: 3px;
+    }
+  }
+  .activities{
+    width: 768px;
+
+    &__wrapper{
+      width: 751px;
+    }
+
+    &__item{
+      width: 236px;
+
+      &--double{
+        width: 492px;
+      }
+    }
+  }
+
+  .footer{
+    width: 768px;
+
+    &__wrapper{
+      width: 687px;
+      margin: auto;
+    }
+
+    &__logo{
+      margin: 35px 0 0 -8px;
+    }
+
+    &__company{
+      margin: 0 0 0 -22px;
+
+      &-item{
+        margin: 3px 0 0 -22px;
+        line-height: 22px;
+      }
+    }
+    &__partners{
+      margin: -120px 0 0 390px;
+    }
+    &__designed{
+      margin-right: 5px;
+    }
+  }
+}
+
