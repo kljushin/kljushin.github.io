@@ -6,11 +6,12 @@
 @mixin block-style($name, $margintop:40px, $color:#fff){
   .#{$name}{
     background-color: $color;
+    min-width: $wrapper-width + 80px;
   }
 
   .#{$name}-wrapper{
     margin: 0 auto;
-    max-width: $wrapper-width;
+    width: $wrapper-width;
     padding: 0 $wrapper-padding;
     margin-top: $margintop;
   }
